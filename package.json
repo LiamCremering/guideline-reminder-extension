@@ -1,0 +1,56 @@
+{
+  "name": "guideline-reminder",
+  "displayName": "Guideline Reminder",
+  "description": "Guideline checklists and reminders for design and development work.",
+  "version": "0.0.7",
+  "publisher": "local",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "main": "./dist/extension.consolidated.js",
+  "activationEvents": [
+    "onStartupFinished",
+    "onCommand:guideline-reminder.helloWorld",
+    "onCommand:guideline-reminder.showChecklist",
+    "onCommand:guideline-reminder.designCheck",
+    "onCommand:guideline-reminder.restartDesign",
+    "onCommand:guideline-reminder.showBestPractices"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "guideline-reminder.helloWorld",
+        "title": "Guideline Reminder: Hello World"
+      },
+      {
+        "command": "guideline-reminder.showChecklist",
+        "title": "Guideline Reminder: Open Checklist"
+      },
+      {
+        "command": "guideline-reminder.designCheck",
+        "title": "Guideline Reminder: Start Design Check"
+      },
+      {
+        "command": "guideline-reminder.restartDesign",
+        "title": "Guideline Reminder: Restart Design Phase"
+      },
+      {
+        "command": "guideline-reminder.showBestPractices",
+        "title": "Guideline Reminder: Open Best Practices for Current Phase"
+      }
+    ],
+    "configuration": {
+      "title": "Guideline Reminder",
+      "properties": {
+        "guidelineReminder.enableOnSave": {
+          "type": "boolean",
+          "default": true,
+          "description": "Show a periodic reminder while the development checklist is active."
+        }
+      }
+    }
+  }
+}
