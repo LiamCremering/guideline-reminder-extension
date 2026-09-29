@@ -2,7 +2,7 @@
   "name": "guideline-reminder",
   "displayName": "Guideline Reminder",
   "description": "Guideline checklists and reminders for design and development work.",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "publisher": "local",
   "engines": {
     "vscode": "^1.85.0"

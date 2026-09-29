@@ -5,7 +5,7 @@ A Visual Studio Code extension with checklists and reminders for design and deve
 ## Download and install
 
 1. Go to the repository's [Releases page](../../releases).
-2. Open the latest release and download the `.vsix` file under **Assets**. For the current version, this is `guideline-reminder-0.0.7.vsix`.
+2. Open the latest release and download the `.vsix` file under **Assets**. For the current version, this is `guideline-reminder-0.0.9.vsix`.
 3. Open Visual Studio Code.
 4. Open the Command Palette:
    - macOS: `Cmd + Shift + P`
