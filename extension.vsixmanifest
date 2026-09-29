@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
   <Metadata>
-    <Identity Language="en-US" Id="guideline-reminder" Version="0.0.7" Publisher="local" />
+    <Identity Language="en-US" Id="guideline-reminder" Version="0.0.8" Publisher="local" />
     <DisplayName>Guideline Reminder</DisplayName>
     <Description xml:space="preserve">Guideline checklists and reminders for design and development work.</Description>
   </Metadata>
